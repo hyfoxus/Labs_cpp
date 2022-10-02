@@ -21,6 +21,7 @@ public:
     char symbol;
     int amount = 0;
     int id;
+
 };
 
 /*
@@ -32,13 +33,13 @@ public:
  * @return возвращает массив символов (Текст).
  */
 
-int *Generate(int size, int left, int right){
-    int resultArr[size];
+char *generate(int size, int left, int right){
+    char result_arr[size];
     srand(time(NULL));
     for (int i = 0; i < size; ++i) {
-        resultArr[i] = left + rand() % (right - left + 1);
+        result_arr[i] = left + rand() % (right - left + 1);
     }
-    return resultArr;
+    return result_arr;
 }
 
 /*
@@ -51,25 +52,25 @@ int *Generate(int size, int left, int right){
  * @return возвращает массив объектов класса Letter (букв)
  */
 
-Letter *CountLetters(int* array, int size, int left, int right){
-    Letter amountLetters[right - left + 1];
-    int letterPosition = 0;
-    for(int i = START_ID; i <= LAST_ID; i++, letterPosition++){
-        amountLetters[letterPosition].symbol = char(i);
-        amountLetters[letterPosition].id = i;
+Letter *countLetters(char* array, int size, int left, int right){
+    Letter amount_letters[right - left + 1];
+    int letter_position = 0;
+    for(int i = START_ID; i <= LAST_ID; i++, letter_position++){
+        amount_letters[letter_position].symbol = char(i);
+        amount_letters[letter_position].id = i;
     }
     for (int i = 0; i < size; ++i) {
         for (int j = 0; j <= right - left + 1; ++j) {
-            if (amountLetters[j].id == array[i])
-                amountLetters[j].amount++;
+            if (amount_letters[j].id == array[i])
+                amount_letters[j].amount++;
         }
     }
-    return amountLetters;
+    return amount_letters;
 }
 
 int main() {
-    int* array = Generate(SIZE, START_ID, LAST_ID);
-    Letter* aux = CountLetters(array, SIZE, START_ID, LAST_ID);
+    char* array = generate(SIZE, START_ID, LAST_ID);
+    Letter* aux = countLetters(array, SIZE, START_ID, LAST_ID);
     Letter result[26];
     for (int i = 0; i < 26; ++i) {
         result[i] = aux[i];
