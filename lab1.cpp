@@ -68,6 +68,7 @@ Letter *countLetters(char* array, int size, int left, int right){
     return amount_letters;
 }
 
+
 int main() {
     char* array = generate(SIZE, START_ID, LAST_ID);
     Letter* aux = countLetters(array, SIZE, START_ID, LAST_ID);
@@ -79,6 +80,10 @@ int main() {
     for (int i = 0; i < LAST_ID - START_ID + 1; ++i) {
         cout << "There are " << result[i].amount << " of " << result[i].symbol <<  endl;
     }
+    cout << ",_._._._._._._._._|__________________________________________________________,\n"
+            "|_|_|_|_|_|_|_|_|_|_________________________________________________________/\n"
+            "                  !" << endl;
+
     return 0;
 }
 

@@ -19,7 +19,6 @@ void fillArray(int** arr, int size){
             arr[i][j] = (j + 1) + size * i;
         }
     }
-
 }
 /*
  * Разварачивает массива
@@ -29,13 +28,14 @@ void fillArray(int** arr, int size){
  */
 
 void reverseArray(int** arr, int size){
+    int number = 1;
     for (int i = size - 1; i >= 0; i--) {
         for (int j = size - 1; j >= 0; --j) {
             arr[i][j] = NULL;
-            arr[i][j] = (j + 1) + size * i;
+            arr[i][j] = number;
+            number++;
         }
     }
-
 }
 
 /*
@@ -140,7 +140,6 @@ void wibblyWobblyArray(int** arr, int size) {
         }
         border_Left++;
     } while (number <= size*size);
-
 }
 
 
@@ -155,36 +154,45 @@ int main() {
         arr[i] = new int [n];
     }
     int mode_id;
-    cout << "What do you need (Insert number): 1) Normal matrix 2) Reversed matrix 3) Main Line matrix 4) Side Line matrix 5) Wibly-Wobbly Timey-whimey Matrix" << endl;
-    cin >> mode_id;
-
-    switch (mode_id) {
-        case 1:
-            fillArray(arr, n);
-            break;
-        case 2:
-            fillArray(arr, n);
-            reverseArray(arr, n);
-            break;
-        case 3:
-            fillArray(arr, n);
-            mainLineArray(arr, n);
-            break;
-        case 4:
-            fillArray(arr, n);
-            sideLineArray(arr, n);
-            break;
-        case 5:
-            fillArray(arr, n);
-            wibblyWobblyArray(arr, n);
-            break;
-        default:
-            cout << "Ну ты и еблан конечно" << endl;
-            break;
+    bool success = false;
+    while (!success) {
+        cout << "What do you need (Insert number): 1) Normal matrix 2) Reversed matrix 3) Main Line matrix 4) Side Line matrix 5) Wibly-Wobbly Timey-whimey Matrix" << endl;
+        cin >> mode_id;
+        switch (mode_id) {
+            case 1:
+                fillArray(arr, n);
+                success = true;
+                break;
+            case 2:
+                fillArray(arr, n);
+                reverseArray(arr, n);
+                success = true;
+                break;
+            case 3:
+                fillArray(arr, n);
+                mainLineArray(arr, n);
+                success = true;
+                break;
+            case 4:
+                fillArray(arr, n);
+                sideLineArray(arr, n);
+                success = true;
+                break;
+            case 5:
+                fillArray(arr, n);
+                wibblyWobblyArray(arr, n);
+                success = true;
+                break;
+            default:
+                cout << "Ну ты и еблан конечно" << endl;
+                mode_id = NULL;
+                success = false;
+                break;
+        }
     }
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
-            cout << arr[i][j] << " ";
+            cout << arr[i][j] << "\t";
         }
         cout << endl;
     }
