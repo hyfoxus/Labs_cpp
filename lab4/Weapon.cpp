@@ -4,6 +4,14 @@
 
 #include "Weapon.h"
 
+/*
+ * Получение радиуса описанной окружности
+ *
+ * @param rarity Редкость предмета как член enum Rarity.
+
+ * @return Кол-во очков характеристик.
+ */
+
 int Weapon::getStatPoints(Rarity rarity){
     switch (rarity) {
         case 0:
@@ -33,6 +41,12 @@ int Weapon::getStatPoints(Rarity rarity){
     }
 }
 
+/*
+ * Генерация элемента на основе редкости предмета
+ *
+ * @param rarity Редкость предмета как член enum Rarity.
+ */
+
 void Weapon::setElement(Rarity rarity){
     int random_element = rand() % 4;
     if (rarity == 0) element = Element[rarity];
@@ -42,6 +56,15 @@ void Weapon::setElement(Rarity rarity){
     }
 
 }
+
+/*
+ * Распределение очков характеристик
+ *
+ * @param place_durability Позиция Durability в очереди распределения.
+ * @param place_damage Позиция Damage в очереди распределения.
+ * @param place_speed Позиция Speed в очереди распределения.
+ * @param stats_points Кол-во очков характеристик.
+ */
 
 void Weapon::setStats(int place_durability, int place_damage, int place_speed, int stats_points){
     for (int i = 1; i <= 3; ++i) {
@@ -62,6 +85,10 @@ void Weapon::setStats(int place_durability, int place_damage, int place_speed, i
         }
     }
 }
+/*
+ * Генерация редкости
+ *
+ */
 
 void Weapon::setRarity() {
     int random_rarity = rand() % 100;
@@ -72,6 +99,12 @@ void Weapon::setRarity() {
     else rarity_enum = Weapon::Legendary;
     rarity = Rarity_string[rarity_enum];
 }
+
+/*
+ * Генерация цены на основе редкости предмета
+ *
+ * @param rarity Редкость предмета как член enum Rarity.
+ */
 
 void Weapon::setCost(Rarity rarity) {
     switch (rarity) {

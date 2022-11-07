@@ -6,16 +6,29 @@
 #include "Weapon.h"
 
 using namespace std;
-//void Bow::setImage(){
-//    image = "   (\n"
-//            "    \\\n"
-//            "     )\n"
-//            "##-------->\n"
-//            "     )\n"
-//            "    /\n"
-//            "   (";
-//
-//}
+
+
+/*
+ * Создание картинки Лука
+ *
+ */
+
+void Bow::setImage(){
+    image = "   (\n"
+            "    \\\n"
+            "     )\n"
+            "##-------->\n"
+            "     )\n"
+            "    /\n"
+            "   (";
+
+}
+
+
+/*
+ * Создание способности Лука
+ *
+ */
 
 void Bow::setAbility() {
 
@@ -24,6 +37,12 @@ void Bow::setAbility() {
     string ending_part = " points of " + element + " damage!";
     ability = starting_part + damage_ability + ending_part;
 }
+
+
+/*
+ * Создание имени Меча
+ *
+ */
 
 void Bow::setName() {
     item_name = rarity + " Bow of " + element;

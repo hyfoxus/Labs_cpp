@@ -4,6 +4,7 @@
 #include "Weapon.h"
 
 
+
 #ifndef LAB1C___SHOP_H
 #define LAB1C___SHOP_H
 class Shop {

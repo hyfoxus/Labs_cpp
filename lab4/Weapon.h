@@ -10,13 +10,13 @@ public:
     enum Rarity { Common, Uncommon, Rare, Epic, Legendary };
     string Rarity_string[5] = { "Common", "Uncommon", "Rare", "Epic", "Legendary" };
     string rarity;
-    int durability = 0;
-    int damage = 0;
-    int speed = 0;
+    int durability;
+    int damage;
+    int speed;
     int cost;
     enum WeaponType {Bow, Spear, Sword};
     WeaponType weaponType;
-    //string image;
+    string image;
     string ability;
     string item_name;
 

@@ -7,15 +7,25 @@
 #include "Sword.h"
 
 using namespace std;
-//void Sword::setImage(){
-//    image = "              />\n"
-//            " (           //------------------------------------------------------(\n"
-//            "(*)OXOXOXOXO(*>                  --------                             \\\n"
-//            " (           \\\\--------------------------------------------------------)\n"
-//            "              \\>";
-//
-//}
 
+/*
+ * Создание картинки меча
+ *
+ */
+
+void Sword::setImage(){
+    image = "              />\n"
+            " (           //------------------------------------------------------(\n"
+            "(*)OXOXOXOXO(*>                  --------                             \\\n"
+            " (           \\\\--------------------------------------------------------)\n"
+            "              \\>";
+
+}
+
+/*
+ * Создание способности меча
+ *
+ */
 void Sword::setAbility() {
 
     string starting_part = "Creates Sword Beam that deals " ;
@@ -24,6 +34,10 @@ void Sword::setAbility() {
     ability = starting_part + damage_ability + ending_part;
 }
 
+/*
+ * Создание имени меча
+ *
+ */
 void Sword::setName() {
     item_name = rarity + " Sword of " + element;
 }

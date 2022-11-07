@@ -16,7 +16,7 @@ public:
         setCost(rarity_enum);
         setStats(3, 2, 1, getStatPoints(rarity_enum));
         setName();
-        //setImage();
+        setImage();
         setAbility();
         weaponType = Weapon::Bow;
     }
@@ -28,7 +28,7 @@ public:
         setCost(rarity_enum);
         setStats(2, 1, 3, getStatPoints(rarity_enum)); // damage -> durability -> damage
         setName();
-        //setImage();
+        setImage();
         setAbility();
         weaponType = Weapon::Bow;
     }

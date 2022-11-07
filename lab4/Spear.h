@@ -16,7 +16,7 @@ public:
         setCost(rarity_enum);
         setStats(2, 1, 3, getStatPoints(rarity_enum)); // damage -> durability -> damage
         setName();
-        //setImage();
+        setImage();
         setAbility();
         weaponType = Weapon::Spear;
     }
@@ -27,7 +27,7 @@ public:
         setCost(rarity_enum);
         setStats(2, 1, 3, getStatPoints(rarity_enum)); // damage -> durability -> damage
         setName();
-        //setImage();
+        setImage();
         setAbility();
         weaponType = Weapon::Spear;
     }

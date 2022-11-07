@@ -70,7 +70,6 @@ Weapon Shop::openShop(int money_in_purse) {
 Weapon Shop::showAvailableItems(int money) {
     cout << "Here is what you can afford:" << endl;
     for (int i = 0; i < size; ++i) {
-
         if ((catalogue[i]).cost <= money) cout << i << ". " << (catalogue[i]).item_name << " Price: " << (catalogue[i]).cost <<  endl;
     }
     cout << "Do you want to buy anything? \n 1 - Yes\t 2 - No" << endl;
