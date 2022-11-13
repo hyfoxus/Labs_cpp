@@ -39,6 +39,8 @@ char *generate(int size, int left, int right){
     for (int i = 0; i < size; ++i) {
         result_arr[i] = left + rand() % (right - left + 1);
     }
+
+
     return result_arr;
 }
 
