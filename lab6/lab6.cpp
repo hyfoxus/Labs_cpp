@@ -20,6 +20,5 @@ int main() {
     funZone.verifyAssaultRifle(100);
 
     funZone.showStats();
-    cout << "fuck you" << endl;
-    return 1;
+    return 0;
 }

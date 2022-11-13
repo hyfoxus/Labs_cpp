@@ -13,7 +13,7 @@
 using namespace std;
 class FunZone {
 public:
-    int targets[6] = {2, 10, 50, 100, 500, 1000};
+    int targets[6] = {2, 10, 50, 100, 500, 1000}; //Массив целей (Расстояний до них)
 
     Pistol pistol;
     Shotgun shotgun;
@@ -25,7 +25,7 @@ public:
     double real_shot_per_min_shotgun;
     double real_shot_per_min_assaultRifle;
 
-    int hit_pistol[6];
+    int hit_pistol[6]; //массив количества попаданий по целям из разных оружий
     int hit_shotgun[6];
     int hit_rifle[6];
     int hit_assaultRifle[6];
@@ -40,13 +40,13 @@ public:
         fill( hit_rifle, hit_rifle + sizeof( hit_rifle ), 0 );
         fill( hit_assaultRifle, hit_assaultRifle + sizeof( hit_assaultRifle ), 0 );
     }
-
+    // Группа Методов собирает данные по точности и рельной скорострельности, принимет сколько контрольных вытсрелов нужно сделать по цели
     void verifyPistol(int amount_of_shots);
     void verifyShotgun(int amount_of_shots);
     void verifyRifle(int amount_of_shots);
     void verifyAssaultRifle(int amount_of_shots);
 
-    void showStats();
+    void showStats(); //метод показывает собранную статистику
 };
 
 
