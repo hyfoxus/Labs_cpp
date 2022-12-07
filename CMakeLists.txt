@@ -9,4 +9,7 @@ add_executable(lab3c__ lab3.cpp)
 add_executable(lab4c__ lab4/lab4.cpp )
 add_executable(lab5c__ lab5/lab5.cpp )
 add_executable(lab6c__ lab6/lab6.cpp )
+add_executable(lab7c__ lab7/lab7.cpp )
+add_executable(lab8c__ lab8.cpp)
+add_executable(lab9c__ lab9/lab9.cpp )
 

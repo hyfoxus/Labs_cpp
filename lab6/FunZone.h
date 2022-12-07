@@ -9,7 +9,23 @@
 #include "Rifle.h"
 #include "AssaultRifle.h"
 
-
+/*
+ * Класс Стрельбище
+ *
+ * @param targets - Массмв целей
+ * @param pistol - Проверяемый пистолет
+ * @param shotgun - Проверяемый дробовик
+ * @param rifle - Проверяемый винтовка
+ * @param assaultRifle - Проверяемый автомат
+ * @param real_shot_per_min_pistol - Реальная скорострельность пистолет
+ * @param real_shot_per_min_rifle - Реальная скорострельность винтовка
+ * @param real_shot_per_min_shotgun - Реальная скорострельность дробовик
+ * @param real_shot_per_min_assaultRifle - Реальная скорострельность автомата
+ * @param hit_pistol - массив кол-ва попаданий по разным целям Пистолета
+ * @param hit_rifle - массив кол-ва попаданий по разным целям Винтовки
+ * @param hit_shotgun - массив кол-ва попаданий по разным целям Дробовика
+ * @param hit_assaultRifle - массив кол-ва попаданий по разным целям Автомата
+ */
 using namespace std;
 class FunZone {
 public:
@@ -40,13 +56,36 @@ public:
         fill( hit_rifle, hit_rifle + sizeof( hit_rifle ), 0 );
         fill( hit_assaultRifle, hit_assaultRifle + sizeof( hit_assaultRifle ), 0 );
     }
-    // Группа Методов собирает данные по точности и рельной скорострельности, принимет сколько контрольных вытсрелов нужно сделать по цели
-    void verifyPistol(int amount_of_shots);
-    void verifyShotgun(int amount_of_shots);
-    void verifyRifle(int amount_of_shots);
-    void verifyAssaultRifle(int amount_of_shots);
 
-    void showStats(); //метод показывает собранную статистику
+/*
+ * Метод собирает данные по точности и рельной скорострельности пистолета, принимет сколько контрольных вытсрелов нужно сделать по цели
+ *
+ * @param amount_of_shots Количество вытрелов для проверки.
+ */
+    void verifyPistol(int amount_of_shots);
+/*
+ * Метод собирает данные по точности и рельной скорострельности дробовика, принимет сколько контрольных вытсрелов нужно сделать по цели
+ *
+ * @param amount_of_shots Количество вытрелов для проверки.
+ */
+    void verifyShotgun(int amount_of_shots);
+/*
+ * Метод собирает данные по точности и рельной скорострельности Винтовки, принимет сколько контрольных вытсрелов нужно сделать по цели
+ *
+ * @param amount_of_shots Количество вытрелов для проверки.
+ */
+    void verifyRifle(int amount_of_shots);
+/*
+ * Метод собирает данные по точности и рельной скорострельности Штурмовой винтовки, принимет сколько контрольных вытсрелов нужно сделать по цели
+ *
+ * @param amount_of_shots Количество вытрелов для проверки.
+ */
+    void verifyAssaultRifle(int amount_of_shots);
+/*
+ * Метод показывает собранную статистику
+
+ */
+    void showStats();
 };
 
 

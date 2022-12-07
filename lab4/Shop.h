@@ -14,9 +14,30 @@ public:
     Shop(){
         size = 100;
     }
+/*
+ * Заполнение магазина товарами
+ */
     void fillShop();
+/*
+ * Открывает магазин
+ *
+ * @param money_in_purse - сколько денег у покупателя
+ * @return Weapon которое было куплено
+ */
     Weapon openShop(int money_in_purse);
+/*
+ * Открывает магазин
+ *
+ * @param money - Досутпные деньги
+ * @return Weapon которое было куплено
+ */
     Weapon showAvailableItems(int money);
+/*
+ * Покупает оружие
+ *
+ * @param id - id покупаемого оружия
+ * @return Weapon которое было куплено
+ */
     Weapon buyItem(int id);
 };
 

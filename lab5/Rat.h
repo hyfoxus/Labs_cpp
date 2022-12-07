@@ -36,7 +36,11 @@ public:
         is_available = true;
         is_fed = true;
     }
-
+/*
+ * Действие, совершаемое животным
+ *
+ * @param partner - партнер действия
+ */
     void fuck_around(Rat partner);
 };
 

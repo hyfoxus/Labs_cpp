@@ -70,16 +70,17 @@ void Zoo::checkCats() {
                 aviary_cat[i].is_available = false;
                 aviary_cat[i].sleep();
                 cout << aviary_cat[i].name << " is asleep!" << endl;
-                aviary_cat[i].start_sleep = time;
             }
             if (aviary_cat[i].needFood()){
                 aviary_cat[i].is_available = false;
                 aviary_cat[i].feed();
                 cout << aviary_cat[i].name << " gets food!" << endl;
-                aviary_cat[i].start_feed  = time;
+                aviary_cat[i].start_feed  = 0;
             }
         } else {
-            aviary_cat[i].wake(time - aviary_cat[i].start_sleep);
+            if (aviary_cat[i].is_asleep && aviary_cat[i].sleep_time == aviary_cat[i].hours_slept)
+                aviary_cat[i].wake();
+            else aviary_cat[i].hours_slept++;
             aviary_cat[i].fed(time - aviary_cat[i].start_feed);
             if (aviary_cat[i].is_fed && !(aviary_cat[i].is_asleep)) aviary_cat[i].is_available = true;
         }
@@ -94,7 +95,6 @@ void Zoo::checkVombats() {
                 aviary_vombat[i].is_available = false;
                 aviary_vombat[i].sleep();
                 cout << aviary_vombat[i].name << " is asleep!" << endl;
-                aviary_vombat[i].start_sleep = time;
             }
             if (aviary_vombat[i].needFood()){
                 aviary_vombat[i].is_available = false;
@@ -103,7 +103,9 @@ void Zoo::checkVombats() {
                 aviary_vombat[i].start_feed  = time;
             }
         } else {
-            aviary_vombat[i].wake(time - aviary_vombat[i].start_sleep);
+            if (aviary_vombat[i].is_asleep && aviary_vombat[i].sleep_time == aviary_vombat[i].hours_slept)
+                aviary_vombat[i].wake();
+            else aviary_vombat[i].hours_slept++;
             aviary_vombat[i].fed(time - aviary_vombat[i].start_feed);
             if (aviary_vombat[i].is_fed && !(aviary_vombat[i].is_asleep)) aviary_vombat[i].is_available = true;
         }
@@ -116,7 +118,6 @@ void Zoo::checkDogs() {
                 aviary_dog[i].is_available = false;
                 aviary_dog[i].sleep();
                 cout << aviary_dog[i].name << " is asleep!" << endl;
-                aviary_dog[i].start_sleep = time;
             }
             if (aviary_dog[i].needFood()){
                 aviary_dog[i].is_available = false;
@@ -125,7 +126,9 @@ void Zoo::checkDogs() {
                 aviary_dog[i].start_feed  = time;
             }
         } else {
-            aviary_dog[i].wake(time - aviary_dog[i].start_sleep);
+            if (aviary_dog[i].is_asleep && aviary_dog[i].sleep_time == aviary_dog[i].hours_slept)
+                aviary_dog[i].wake();
+            else aviary_dog[i].hours_slept++;
             aviary_dog[i].fed(time - aviary_dog[i].start_feed);
             if (aviary_dog[i].is_fed && !(aviary_dog[i].is_asleep)) aviary_dog[i].is_available = true;
         }
@@ -138,7 +141,6 @@ void Zoo::checkRats() {
                 aviary_rat[i].is_available = false;
                 aviary_rat[i].sleep();
                 cout << aviary_rat[i].name << " is asleep!" << endl;
-                aviary_rat[i].start_sleep = time;
             }
             if (aviary_rat[i].needFood()){
                 aviary_rat[i].is_available = false;
@@ -147,7 +149,9 @@ void Zoo::checkRats() {
                 aviary_rat[i].start_feed  = time;
             }
         } else {
-            aviary_rat[i].wake(time - aviary_rat[i].start_sleep);
+            if (aviary_rat[i].is_asleep && aviary_rat[i].sleep_time == aviary_rat[i].hours_slept)
+                aviary_rat[i].wake();
+            else aviary_rat[i].hours_slept++;
             aviary_rat[i].fed(time - aviary_rat[i].start_feed);
             if (aviary_rat[i].is_fed && !(aviary_rat[i].is_asleep)) aviary_rat[i].is_available = true;
         }

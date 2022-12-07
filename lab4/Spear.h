@@ -32,9 +32,19 @@ public:
         weaponType = Weapon::Spear;
     }
 
-    void setImage();
-    void setAbility();
+/*
+ * Генериция имени
+ */
     void setName();
+/*
+ * Генериция текстовой картинки
+ */
+    void setImage();
+/*
+ * Генериция способности
+ */
+    void setAbility();
+};
 };
 
 

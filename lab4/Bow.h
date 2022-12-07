@@ -32,8 +32,17 @@ public:
         setAbility();
         weaponType = Weapon::Bow;
     }
+/*
+ * Генериция имени
+ */
     void setName();
+/*
+ * Генериция текстовой картинки
+ */
     void setImage();
+/*
+ * Генериция способности
+ */
     void setAbility();
 };
 

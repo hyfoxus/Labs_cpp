@@ -15,10 +15,10 @@ void Animal::sleep() {
     is_asleep = true;
 }
 
-void Animal::wake(int hours_passed) {
-    if (hours_passed == sleep_time && start_sleep != 0){
+void Animal::wake() {
+    if (hours_slept == sleep_time && hours_slept != 0){
         is_asleep = false;
-        start_sleep = 0;
+        hours_slept = 0;
     }
 }
 

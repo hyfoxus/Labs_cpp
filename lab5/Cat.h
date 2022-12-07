@@ -36,7 +36,11 @@ public:
         is_available = true;
         is_fed = true;
     }
-
+/*
+ * Действие, совершаемое животным
+ *
+ * @param partner - партнер действия
+ */
     void laze_around(Cat partner);
 
 
