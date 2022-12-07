@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gnemirko/Documents/GitHub/GANemirko_33/lab9/User.cpp
+User.h
+/Users/gnemirko/Documents/GitHub/GANemirko_33/lab9/User.h
+
+/Users/gnemirko/Documents/GitHub/GANemirko_33/lab9/User.h
+string
+-
+
+/Users/gnemirko/Documents/GitHub/GANemirko_33/lab9/lab9.cpp
+iostream
+-
+ctime
+-
+cstdlib
+-
+vector
+-
+algorithm
+-
+random
+-
+User.h
+/Users/gnemirko/Documents/GitHub/GANemirko_33/lab9/User.h
+User.cpp
+/Users/gnemirko/Documents/GitHub/GANemirko_33/lab9/User.cpp
+
