@@ -119,19 +119,14 @@ void User::rewrite(string user_name, string user_surname, string user_second_nam
     }
 }
 
-User::User(int i) {
-    string surnames[10] = {"Ivanov", "Joestar", "Kurosaki", "Giovini", "Zeppeli",
-                           "Brando", "Valentine", "Kujo", "Pucci", "Abdul"};
-    string names[10] = {"Ivan", "Joseph", "Ichigo", "Giorno", "Ceaser",
-                        "DIO", "Funny", "Jotaro", "Enrico", "Muhammed"};
-    string second_names[10] = {"Ivanovich", "Hermit Purple", "Monster", "Gold Experience", "Nero",
-                               "WORLD", "D4C", "Star Platinum", "Made in Heaven", "Magician Red"};
-    name = names[i];
-    surname = surnames[i];
-    second_name = second_names[i];
-    age = 20 + i;
-    generateLogin();
-    generatePassword();
+void User::print() {
+    cout << "Fullname: " << getFullname() << endl;
+    cout << "Age: " << age << endl;
+    cout << "Login: " << login << endl;
+    cout << "Password: " << password << endl;
+    if (isActive) cout << "Activity: Online" << endl;
+    else cout << "Activity: Offline" << endl;
+    cout << endl;
 }
 
 

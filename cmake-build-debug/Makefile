@@ -131,6 +131,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named lab7c__
+
+# Build rule for target.
+lab7c__: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab7c__
+.PHONY : lab7c__
+
+# fast build rule for target.
+lab7c__/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab7c__.dir/build.make CMakeFiles/lab7c__.dir/build
+.PHONY : lab7c__/fast
+
+#=============================================================================
+# Target rules for targets named lab10c__
+
+# Build rule for target.
+lab10c__: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab10c__
+.PHONY : lab10c__
+
+# fast build rule for target.
+lab10c__/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab10c__.dir/build.make CMakeFiles/lab10c__.dir/build
+.PHONY : lab10c__/fast
+
+#=============================================================================
 # Target rules for targets named lab9c__
 
 # Build rule for target.
@@ -157,17 +183,17 @@ lab8c__/fast:
 .PHONY : lab8c__/fast
 
 #=============================================================================
-# Target rules for targets named lab7c__
+# Target rules for targets named lab3c__
 
 # Build rule for target.
-lab7c__: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab7c__
-.PHONY : lab7c__
+lab3c__: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab3c__
+.PHONY : lab3c__
 
 # fast build rule for target.
-lab7c__/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab7c__.dir/build.make CMakeFiles/lab7c__.dir/build
-.PHONY : lab7c__/fast
+lab3c__/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3c__.dir/build.make CMakeFiles/lab3c__.dir/build
+.PHONY : lab3c__/fast
 
 #=============================================================================
 # Target rules for targets named lab6c__
@@ -207,19 +233,6 @@ lab4c__: cmake_check_build_system
 lab4c__/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4c__.dir/build.make CMakeFiles/lab4c__.dir/build
 .PHONY : lab4c__/fast
-
-#=============================================================================
-# Target rules for targets named lab3c__
-
-# Build rule for target.
-lab3c__: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab3c__
-.PHONY : lab3c__
-
-# fast build rule for target.
-lab3c__/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3c__.dir/build.make CMakeFiles/lab3c__.dir/build
-.PHONY : lab3c__/fast
 
 #=============================================================================
 # Target rules for targets named lab2c__
@@ -273,6 +286,87 @@ lab1.s: lab1.cpp.s
 lab1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1c__.dir/build.make CMakeFiles/lab1c__.dir/lab1.cpp.s
 .PHONY : lab1.cpp.s
+
+lab10/Figure.o: lab10/Figure.cpp.o
+
+.PHONY : lab10/Figure.o
+
+# target to build an object file
+lab10/Figure.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab10c__.dir/build.make CMakeFiles/lab10c__.dir/lab10/Figure.cpp.o
+.PHONY : lab10/Figure.cpp.o
+
+lab10/Figure.i: lab10/Figure.cpp.i
+
+.PHONY : lab10/Figure.i
+
+# target to preprocess a source file
+lab10/Figure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab10c__.dir/build.make CMakeFiles/lab10c__.dir/lab10/Figure.cpp.i
+.PHONY : lab10/Figure.cpp.i
+
+lab10/Figure.s: lab10/Figure.cpp.s
+
+.PHONY : lab10/Figure.s
+
+# target to generate assembly for a file
+lab10/Figure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab10c__.dir/build.make CMakeFiles/lab10c__.dir/lab10/Figure.cpp.s
+.PHONY : lab10/Figure.cpp.s
+
+lab10/King.o: lab10/King.cpp.o
+
+.PHONY : lab10/King.o
+
+# target to build an object file
+lab10/King.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab10c__.dir/build.make CMakeFiles/lab10c__.dir/lab10/King.cpp.o
+.PHONY : lab10/King.cpp.o
+
+lab10/King.i: lab10/King.cpp.i
+
+.PHONY : lab10/King.i
+
+# target to preprocess a source file
+lab10/King.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab10c__.dir/build.make CMakeFiles/lab10c__.dir/lab10/King.cpp.i
+.PHONY : lab10/King.cpp.i
+
+lab10/King.s: lab10/King.cpp.s
+
+.PHONY : lab10/King.s
+
+# target to generate assembly for a file
+lab10/King.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab10c__.dir/build.make CMakeFiles/lab10c__.dir/lab10/King.cpp.s
+.PHONY : lab10/King.cpp.s
+
+lab10/lab10.o: lab10/lab10.cpp.o
+
+.PHONY : lab10/lab10.o
+
+# target to build an object file
+lab10/lab10.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab10c__.dir/build.make CMakeFiles/lab10c__.dir/lab10/lab10.cpp.o
+.PHONY : lab10/lab10.cpp.o
+
+lab10/lab10.i: lab10/lab10.cpp.i
+
+.PHONY : lab10/lab10.i
+
+# target to preprocess a source file
+lab10/lab10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab10c__.dir/build.make CMakeFiles/lab10c__.dir/lab10/lab10.cpp.i
+.PHONY : lab10/lab10.cpp.i
+
+lab10/lab10.s: lab10/lab10.cpp.s
+
+.PHONY : lab10/lab10.s
+
+# target to generate assembly for a file
+lab10/lab10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab10c__.dir/build.make CMakeFiles/lab10c__.dir/lab10/lab10.cpp.s
+.PHONY : lab10/lab10.cpp.s
 
 lab2.o: lab2.cpp.o
 
@@ -498,6 +592,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... lab10c__"
 	@echo "... lab1c__"
 	@echo "... lab2c__"
 	@echo "... lab3c__"
@@ -510,6 +605,15 @@ help:
 	@echo "... lab1.o"
 	@echo "... lab1.i"
 	@echo "... lab1.s"
+	@echo "... lab10/Figure.o"
+	@echo "... lab10/Figure.i"
+	@echo "... lab10/Figure.s"
+	@echo "... lab10/King.o"
+	@echo "... lab10/King.i"
+	@echo "... lab10/King.s"
+	@echo "... lab10/lab10.o"
+	@echo "... lab10/lab10.i"
+	@echo "... lab10/lab10.s"
 	@echo "... lab2.o"
 	@echo "... lab2.i"
 	@echo "... lab2.s"

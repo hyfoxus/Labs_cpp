@@ -27,11 +27,95 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="lab7c__">
+				<Option output="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/lab7c__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab7c__"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab7c__/fast">
+				<Option output="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/lab7c__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab7c__/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10c__">
+				<Option output="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/lab10c__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab10c__"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10c__/fast">
+				<Option output="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/lab10c__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab10c__/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -121,8 +205,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="lab7c__">
-				<Option output="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/lab7c__" prefix_auto="0" extension_auto="0"/>
+			<Target title="lab3c__">
+				<Option output="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/lab3c__" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -136,14 +220,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab7c__"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab3c__"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="lab7c__/fast">
-				<Option output="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/lab7c__" prefix_auto="0" extension_auto="0"/>
+			<Target title="lab3c__/fast">
+				<Option output="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/lab3c__" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -157,7 +241,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab7c__/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab3c__/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -289,48 +373,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="lab3c__">
-				<Option output="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/lab3c__" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab3c__"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lab3c__/fast">
-				<Option output="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/lab3c__" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab3c__/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="lab2c__">
 				<Option output="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug/lab2c__" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/gnemirko/Documents/GitHub/GANemirko_33/cmake-build-debug"/>
@@ -418,6 +460,21 @@
 		</Build>
 		<Unit filename="/Users/gnemirko/Documents/GitHub/GANemirko_33/lab1.cpp">
 			<Option target="lab1c__"/>
+		</Unit>
+		<Unit filename="/Users/gnemirko/Documents/GitHub/GANemirko_33/lab10/Figure.cpp">
+			<Option target="lab10c__"/>
+		</Unit>
+		<Unit filename="/Users/gnemirko/Documents/GitHub/GANemirko_33/lab10/Figure.h">
+			<Option target="lab10c__"/>
+		</Unit>
+		<Unit filename="/Users/gnemirko/Documents/GitHub/GANemirko_33/lab10/King.cpp">
+			<Option target="lab10c__"/>
+		</Unit>
+		<Unit filename="/Users/gnemirko/Documents/GitHub/GANemirko_33/lab10/King.h">
+			<Option target="lab10c__"/>
+		</Unit>
+		<Unit filename="/Users/gnemirko/Documents/GitHub/GANemirko_33/lab10/lab10.cpp">
+			<Option target="lab10c__"/>
 		</Unit>
 		<Unit filename="/Users/gnemirko/Documents/GitHub/GANemirko_33/lab2.cpp">
 			<Option target="lab2c__"/>

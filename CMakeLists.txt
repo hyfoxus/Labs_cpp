@@ -12,4 +12,5 @@ add_executable(lab6c__ lab6/lab6.cpp )
 add_executable(lab7c__ lab7/lab7.cpp )
 add_executable(lab8c__ lab8.cpp)
 add_executable(lab9c__ lab9/lab9.cpp )
+add_executable(lab10c__ lab10/lab10.cpp lab10/Figure.cpp lab10/King.cpp)
 

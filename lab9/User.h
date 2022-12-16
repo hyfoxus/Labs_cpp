@@ -107,7 +107,7 @@ public:
          age = users_age;
          generateLogin();
          generatePassword();
-         isActive = true;
+         isActive = rand() % 2;
      }
 
      ~User(){
@@ -123,11 +123,11 @@ public:
      string getSecondName();
      string getPassword();
      void rewrite(string user_name, string user_surname, string user_second_name, int user_age);
+     void print();
 
-     friend ostream& operator << (ostream& out, User user);
+     friend ostream& operator << (ostream& out, vector<User> users);
 
 
-    User(int i);
 };
 
 
